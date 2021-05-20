@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lingshui-parent</artifactId>
+        <groupId>com.dlut</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>lingshui-service-goods</module>
+        <module>lingshui-service-file</module>
+        <module>lingshui-service-canal</module>
+        <module>lingshui-service-content</module>
+        <module>lingshui-service-search</module>
+        <module>lingshui-service-user</module>
+        <module>lingshui-service-order</module>
+        <module>lingshui-service-pay</module>
+        <module>lingshui-service-seckill</module>
+
+    </modules>
+
+    <artifactId>lingshui-service</artifactId>
+
+    <!--依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>com.dlut</groupId>
+            <artifactId>lingshui-common-db</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dlut</groupId>
+            <artifactId>lingshui-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,10 @@
+server:
+  port: 8761
+euruka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-euruka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${euruka.instance.hostname}:${server.port}/euruka/
